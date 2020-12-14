@@ -44,7 +44,7 @@ es = the number of stable pieces for the enemy
 The following explains the move ordering heuristics used and how effective they are.
 Each heuristic was tested given three different board states, one in an early game position, one in a mid game position, and one in a late game position. The
 speed factor measures how fast it is compared to the alpha-beta search with no move ordering heuristics.  
-These tests are available as unit tests in the tests folder.
+These tests are available as JUnit tests in the tests folder.
 
 ### Shallow move ordering : This is the process of evaluating each move and sorting the list of possible moves based on that score (best gets searched first) before continuing on with the alpha-beta search.
 #### Early game : 
