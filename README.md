@@ -1,6 +1,6 @@
 # OthelloBot
 Tournament winning bot that plays Othello using an alpha-beta algorithm written in java.  
-Written by William Munsch with guidance by Dr. Mariette Cameron
+Written by William Munsch with guidance by Dr. Mariette Cameron.
 
 ## Description
 This bot uses an alpha-beta pruning algorithm with move ordering heuristics
@@ -10,15 +10,20 @@ one 64-bit integer (long) for white pieces and one for black pieces. A bit value
 an empty board space, and a bit value of 1 represents a piece of the respective color.
 
 ## How to use & input
----.java
-All input and output is done via console commands.
+Download the WMunschOthelloBot.jar file and navigate to the directory it's in with the console and use the command
+
+java -jar WMunschOthelloBot.jar
+
+All input is done via console commands.
 The very first input for any game must be either  
 I W  
 or  
 I B  
-This determines which color the bot will initialize as.
-Every input after that must be a valid move of the form (COLOR letter number) without paranthesis.
-For example, if the bot was initialized as white, a valid first move for black could be   
+This determines which color the bot will initialize as.  
+You, the player, will be the other color.
+Every input after that must be a valid move of the form  
+COLOR letter number  
+For example, if the bot was initialized as white, a valid first move for black would be   
 B e 6  
 The board representation will be printed after each move.
 
