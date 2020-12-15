@@ -1,6 +1,7 @@
 # OthelloBot
 Tournament winning bot that plays Othello using an alpha-beta algorithm written in java.  
-Written by William Munsch with guidance by Dr. Mariette Cameron.
+Written by William Munsch with guidance by Dr. Mariette Cameron.  
+This bot is undefeated when given a 10 minute timer as far as I'm aware, if you manage to beat it please send me the logs so I can improve it.
 
 ## Description
 This bot uses an alpha-beta pruning algorithm with move ordering heuristics
@@ -25,6 +26,8 @@ Every input after that must be a valid move of the form
 COLOR letter number  
 For example, if the bot was initialized as white, a valid first move for black would be   
 B e 6  
+If the only possible move is to pass, simply write the letter of your COLOR in caps, for example  
+B  
 The board representation will be printed after each move.
 
 ## Evaluation function
